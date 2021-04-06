@@ -1,0 +1,510 @@
+
+body{
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+#main{
+    margin: auto;
+    height:100vw;
+    width:100vw;
+    max-height: 700px;
+    max-width: 700px;
+}
+
+#main div {
+    transition: 0.3s ease-in-out;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image:
+
+    /* Earring */
+    radial-gradient(circle at 32% 60%, #f2f2f2 0.5%, transparent 0%),
+    radial-gradient(circle at 32% 60%, #efefef 1%, transparent 0%),
+    radial-gradient(circle at 68% 60%, #f2f2f2 0.5%, transparent 0%),
+    radial-gradient(circle at 68% 60%, #efefef 1%, transparent 0%),
+
+    /* HEAD */
+    linear-gradient(92deg,#ffcc99 20%, transparent 0%),
+
+    radial-gradient(circle at 50% 45%,#ffcc99 22%,rgba(255,255,255,0) 0%),
+    radial-gradient(circle at 50% 61%,#ffcc99 20%,rgba(255,255,255,0) 0%),
+
+    linear-gradient(100deg,#ffe6cc 20%, transparent 0%),
+    radial-gradient(circle at 52.5% 61%, #ffe6cc 18%, rgba(255,255,255,0) 0%),
+    radial-gradient(circle at 54.5% 45%, #ffe6cc 19.5%, rgba(255,255,255,0) 0%),
+
+    linear-gradient(-100deg,#ffcc99 20%, transparent 0%),
+    linear-gradient(100deg,#ffcc99 20%, transparent 0%),
+    radial-gradient(circle at 50% 45%,#ffcc99 26.5%,rgba(255,255,255,0) 0%),
+    radial-gradient(circle at 50% 60%,#ffcc99 22%,rgba(255,255,255,0) 0%),
+
+
+    /* EAR RIGHT */
+    linear-gradient(105deg, #ffbf80 20%, transparent 0%),
+    radial-gradient(circle at 68% 53%, #ffbf80 3%, rgba(255,255,255,0) 0%),
+    radial-gradient(circle at 67.5% 59%, #ffbf80 1.5%, rgba(255,255,255,0) 0%),
+
+    /* EAR LEFT */
+    linear-gradient(-105deg, #ffbf80 20%, transparent 0%),
+    radial-gradient(circle at 32% 53%, #ffbf80 3%, rgba(255,255,255,0) 0%),
+    radial-gradient(circle at 32.5% 59%, #ffbf80 1.5%, rgba(255,255,255,0) 0%),
+
+    /* NECK */
+
+    radial-gradient(circle at 50% 77%, #ffbf80 10%, rgba(255,255,255,0) 0%),
+    radial-gradient(circle at 50% 79%, #003380 10%, rgba(255,255,255,0) 0%),
+
+    radial-gradient(circle at 50% 135%, transparent 41%, white 10%),
+    radial-gradient(circle at 54% 145%, #990000 40%, rgba(255,255,255,0) 0%),
+    linear-gradient(#cc0000 100%, transparent 0%),
+    radial-gradient(circle at 50% 135%, #990000 40%, rgba(255,255,255,0) 0%);
+
+    background-size:
+    /* EARRING */
+    100%,100%,100%,100%,
+
+    /* HEAD */
+    20% 15%,
+    100%, 100%,
+    20% 15%,
+    100%, 100%,
+    20% 15%,
+    20% 15%,
+    100%, 100%, 
+    
+    /* EAR RIGHT*/
+    20% 5%,
+    100%, 100%,
+    
+    /* EAR LEFT*/
+    20% 5%,
+    100%, 100%,
+
+    /* NECK */
+    100%, 100%, 100%,100%,
+    50% 50%,
+    100%;
+
+    background-position:
+    /* EARRING */
+    100%,100%,100%,100%,
+
+    /* HEAD */
+    77.5% 56%,
+    100%, 100%,
+    81% 57%,
+    100%, 100%,
+    19.25% 57%,
+    81% 57%,
+    100%, 100%,
+
+    /* EAR RIGHT*/
+    82% 57%,
+    100%, 100%,
+    
+    /* EAR LEFT*/
+    18% 57%,
+    100%, 100%,
+
+    /* NECK */
+    100%, 100%, 100%,100%,
+    100% 100%,
+    100%;
+}
+
+
+#main div::before, #main div::after{
+    display: block;
+    content: '';
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+
+#main div::before{
+    margin: auto;
+    /* border: 1px solid red; */
+    height: 40%;
+    width: 40%;
+    background-repeat: no-repeat;
+
+    background-image:
+
+
+        linear-gradient(#1a1a1a 13%, transparent 40%),
+
+        radial-gradient(circle at 34% 80%, #1a1a1a 15%, transparent 0%),
+        radial-gradient(circle at 38% 83%, #333333 15%, transparent 0%),
+
+        linear-gradient(#737373 3%, transparent 0%),
+        linear-gradient(#595959 3%, transparent 0%),
+        linear-gradient(#404040 3%, transparent 0%),
+        linear-gradient(#262626 3%, transparent 0%),
+
+
+        linear-gradient(#737373 3%, transparent 0%),
+        linear-gradient(#595959 3%, transparent 0%),
+        linear-gradient(#404040 3%, transparent 0%),
+        linear-gradient(#262626 3%, transparent 0%),
+
+        radial-gradient(circle at 50% 105%, transparent 41%, white 10%),
+        linear-gradient(#ffcc99 50%, transparent 0%),
+        radial-gradient(circle at 50% 105%, #1a1a1a 41%, transparent 0%)
+    ;
+    background-size:
+        30% 50%,
+        100%, 100%,
+        12.5% 20%, 14% 20%, 15% 20%, 20% 20%,
+        12.5% 20%, 14% 20%, 15% 20%, 20% 20%,
+        100%, 
+        100% 50%,
+        100%
+    ;
+    background-position:
+        50% 140%,
+        100%, 100%,
+        97% 123.5%, 96.5% 122%, 96.5% 120.5%, 96% 119%,
+        3% 123.5%, 3.25% 122%, 3.5% 120.5%, 4% 119%,
+        100%,
+        50% 190%,
+        100%
+    ;
+
+}
+
+#main div::after{
+    margin: auto;
+    height: 60%;
+    /* border: 1px solid green; */
+    background-repeat: no-repeat;
+
+    background-image:
+
+        /* PEACE */
+        linear-gradient(#cc0000 100%, transparent 0%),
+        linear-gradient(#ffcc99 10%, transparent 0%),
+        linear-gradient(#ffbf80 20%, transparent 0%),
+        linear-gradient(87deg, #ffcc99 20%, transparent 0%),
+        linear-gradient(87deg, #ffcc99 20%, transparent 0%),
+
+        /* NOSE */
+        /* linear-gradient(#ffcc99 15%, transparent 0%),
+        radial-gradient(circle at 50% 32%, #ffb366 3%, transparent 0%), */
+
+        /* MOUTH */
+        linear-gradient(black 0%, transparent 0%),
+        linear-gradient(#efefef 0%, transparent 0%),
+        linear-gradient(black 3%, transparent 0%),
+
+        /* BROWS */
+        linear-gradient(-1deg,black 3%, transparent 0%),
+        linear-gradient(1deg,black 3%, transparent 0%),
+
+        /*EYE*/
+        radial-gradient(circle at 57.25% 19%, #a6a6a6 0.25% , transparent 0%),
+        radial-gradient(circle at 43.5% 19%, #a6a6a6 0.25% , transparent 0%),
+        radial-gradient(circle at 57% 20%, #1a0d00 2% , transparent 0%), radial-gradient(circle at 56.75% 20%, #1a0d00 2% , transparent 0%),
+        radial-gradient(circle at 43% 20%, #1a0d00 2% , transparent 0%), radial-gradient(circle at 43.25% 20%, #1a0d00 2% , transparent 0%)
+
+    ;
+
+    background-size:
+
+        /* PEACE */
+        13% 50%,
+        13% 50%,
+        13% 70%,
+        20% 50%,
+        20% 50%,
+
+        /* NOSE */
+        /* 10% 50%,
+        100%, */
+
+        /* MOUTH */
+        12% 50%,
+        11% 50%,
+        12% 50%,
+        /* BROWS */
+        5% 50%,
+        5% 50%,
+        /*EYE*/
+        100%, 100%, 100%, 100%, 100%, 100%
+    ;
+    background-position: 
+        /* PEACE */
+        15% 200%,
+        17% 200%,
+        15% 360%,
+        22% 200%,
+        27% 200%,
+
+        /* NOSE */
+        /* 50% 52%,
+        100%, */
+
+        /* MOUTH */
+        50% 80%,
+        50% 75%,
+        50% 75%,
+
+        /* BROWS */
+        42% -70%,
+        58% -70%,
+        /* EYE */
+        100%, 100%, 100%, 100%, 100%, 100%
+    ;   
+
+}
+
+#main:not(.no-hover):hover{
+    background: #e6ffe6;
+    cursor: pointer;
+}
+
+#main div:not(.no-hover):hover {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image:
+
+    /* Earring */
+    radial-gradient(circle at 32% 60%, #f2f2f2 0.5%, transparent 0%),
+    radial-gradient(circle at 32% 60%, #efefef 1%, transparent 0%),
+    radial-gradient(circle at 68% 60%, #f2f2f2 0.5%, transparent 0%),
+    radial-gradient(circle at 68% 60%, #efefef 1%, transparent 0%),
+
+    /* HEAD */
+    linear-gradient(92deg,#ffcc99 20%, transparent 0%),
+
+    radial-gradient(circle at 50% 45%,#ffcc99 22%,rgba(255,255,255,0) 0%),
+    radial-gradient(circle at 50% 61%,#ffcc99 20%,rgba(255,255,255,0) 0%),
+
+    linear-gradient(100deg,#ffe6cc 20%, transparent 0%),
+    radial-gradient(circle at 52.5% 61%, #ffe6cc 18%, rgba(255,255,255,0) 0%),
+    radial-gradient(circle at 54.5% 45%, #ffe6cc 19.5%, rgba(255,255,255,0) 0%),
+
+    linear-gradient(-100deg,#ffcc99 20%, transparent 0%),
+    linear-gradient(100deg,#ffcc99 20%, transparent 0%),
+    radial-gradient(circle at 50% 45%,#ffcc99 26.5%,rgba(255,255,255,0) 0%),
+    radial-gradient(circle at 50% 60%,#ffcc99 22%,rgba(255,255,255,0) 0%),
+
+
+    /* EAR RIGHT */
+    linear-gradient(105deg, #ffbf80 20%, transparent 0%),
+    radial-gradient(circle at 68% 53%, #ffbf80 3%, rgba(255,255,255,0) 0%),
+    radial-gradient(circle at 67.5% 59%, #ffbf80 1.5%, rgba(255,255,255,0) 0%),
+
+    /* EAR LEFT */
+    linear-gradient(-105deg, #ffbf80 20%, transparent 0%),
+    radial-gradient(circle at 32% 53%, #ffbf80 3%, rgba(255,255,255,0) 0%),
+    radial-gradient(circle at 32.5% 59%, #ffbf80 1.5%, rgba(255,255,255,0) 0%),
+
+    /* NECK */
+
+    radial-gradient(circle at 50% 77%, #ffbf80 10%, rgba(255,255,255,0) 0%),
+    radial-gradient(circle at 50% 79%, #003380 10%, rgba(255,255,255,0) 0%),
+
+    radial-gradient(circle at 50% 135%, transparent 41%, #e6ffe6 10%),
+    radial-gradient(circle at 54% 145%, #990000 40%, rgba(255,255,255,0) 0%),
+    linear-gradient(#cc0000 100%, transparent 0%),
+    radial-gradient(circle at 50% 135%, #990000 40%, rgba(255,255,255,0) 0%);
+
+    background-size:
+    /* EARRING */
+    100%,100%,100%,100%,
+
+    /* HEAD */
+    20% 15%,
+    100%, 100%,
+    20% 15%,
+    100%, 100%,
+    20% 15%,
+    20% 15%,
+    100%, 100%, 
+    
+    /* EAR RIGHT*/
+    20% 5%,
+    100%, 100%,
+    
+    /* EAR LEFT*/
+    20% 5%,
+    100%, 100%,
+
+    /* NECK */
+    100%, 100%, 100%,100%,
+    50% 50%,
+    100%;
+
+    background-position:
+    /* EARRING */
+    100%,100%,100%,100%,
+
+    /* HEAD */
+    77.5% 56%,
+    100%, 100%,
+    81% 57%,
+    100%, 100%,
+    19.25% 57%,
+    81% 57%,
+    100%, 100%,
+
+    /* EAR RIGHT*/
+    82% 57%,
+    100%, 100%,
+    
+    /* EAR LEFT*/
+    18% 57%,
+    100%, 100%,
+
+    /* NECK */
+    100%, 100%, 100%,100%,
+    100% 100%,
+    100%;
+}
+
+
+#main div::before, #main div::after{
+    display: block;
+    content: '';
+    position: relative;
+}
+#main div:not(.no-hover):hover:before{
+    margin: auto;
+    /* border: 1px solid red; */
+    height: 40%;
+    width: 40%;
+    background-repeat: no-repeat;
+
+    background-image:
+
+
+        linear-gradient(#1a1a1a 13%, transparent 40%),
+
+        radial-gradient(circle at 34% 80%, #1a1a1a 15%, transparent 0%),
+        radial-gradient(circle at 38% 83%, #333333 15%, transparent 0%),
+
+        linear-gradient(#737373 3%, transparent 0%),
+        linear-gradient(#595959 3%, transparent 0%),
+        linear-gradient(#404040 3%, transparent 0%),
+        linear-gradient(#262626 3%, transparent 0%),
+
+
+        linear-gradient(#737373 3%, transparent 0%),
+        linear-gradient(#595959 3%, transparent 0%),
+        linear-gradient(#404040 3%, transparent 0%),
+        linear-gradient(#262626 3%, transparent 0%),
+
+        radial-gradient(circle at 50% 105%, transparent 41%, #e6ffe6 10%),
+        linear-gradient(#ffcc99 50%, transparent 0%),
+        radial-gradient(circle at 50% 105%, #1a1a1a 41%, transparent 0%)
+    ;
+    background-size:
+        30% 50%,
+        100%, 100%,
+        12.5% 20%, 14% 20%, 15% 20%, 20% 20%,
+        12.5% 20%, 14% 20%, 15% 20%, 20% 20%,
+        100%, 
+        100% 50%,
+        100%
+    ;
+    background-position:
+        50% 140%,
+        100%, 100%,
+        97% 123.5%, 96.5% 122%, 96.5% 120.5%, 96% 119%,
+        3% 123.5%, 3.25% 122%, 3.5% 120.5%, 4% 119%,
+        100%,
+        50% 190%,
+        100%
+    ; 
+    
+}
+
+#main div:not(no-hover):hover:after{
+
+    transition: 0.3s ease-in-out;
+    background-image:
+
+        /* PEACE */
+        linear-gradient(#cc0000 100%, transparent 0%),
+        linear-gradient(#ffe6cc 10%, transparent 0%),
+        linear-gradient(#ffbf80 20%, transparent 0%),
+        linear-gradient(87deg, #ffcc99 20%, transparent 0%),
+        linear-gradient(87deg, #ffcc99 20%, transparent 0%),
+
+        /* NOSE */
+        /* linear-gradient(#ffcc99 15%, transparent 0%),
+        radial-gradient(circle at 50% 32%, #ffb366 3%, transparent 0%), */
+
+        /* MOUTH */
+        linear-gradient(black 2%, transparent 0%),
+        linear-gradient(#efefef 13%, transparent 0%),
+        linear-gradient(black 15%, transparent 0%),
+
+        /* BROWS */
+        linear-gradient(-1deg,black 4%, transparent 0%),
+        linear-gradient(1deg,black 3.5%, transparent 0%),
+
+        /*EYE*/
+        radial-gradient(circle at 57.25% 19%, #a6a6a6 0.3% , transparent 0%),
+        radial-gradient(circle at 43.5% 19%, #a6a6a6 0.3% , transparent 0%),
+        radial-gradient(circle at 57% 19.5%, #1a0d00 2% , transparent 0%), radial-gradient(circle at 56.75% 19.5%, #1a0d00 2% , transparent 0%),
+        radial-gradient(circle at 43% 19.5%, #1a0d00 2% , transparent 0%), radial-gradient(circle at 43.25% 19.5%, #1a0d00 2% , transparent 0%)
+
+    ;
+
+    background-size:
+
+        /* PEACE */
+        13% 50%,
+        7% 50%,
+        13% 70%,
+        20% 50%,
+        20% 50%,
+
+        /* NOSE */
+        /* 10% 50%,
+        100%, */
+
+        /* MOUTH */
+        12% 50%,
+        11% 50%,
+        12% 50%,
+        /* BROWS */
+        5% 50%,
+        5% 50%,
+        /*EYE*/
+        100%, 100%, 100%, 100%, 100%, 100%
+    ;
+    background-position: 
+
+        /* PEACE */
+        15% 130%,
+        20.5% 107%,
+        15% 170%,
+        22% 75%,
+        27% 75%,
+
+        /* NOSE */
+        /* 50% 52%,
+        100%, */
+
+        /* MOUTH */
+        50% 80%,
+        50% 75%,
+        50% 74%,
+
+        /* BROWS */
+        42% -72%,
+        58% -71.5%,
+        /* EYE */
+        100%, 100%, 100%, 100%, 100%, 100%
+    ;   
+}

@@ -1,0 +1,31 @@
+/*body{
+	background-color: #efefef;
+	font-family: Arial;
+	font-size: 18px;
+	margin: 0;
+}
+#header{
+	height: 200px;
+	background-position: 62% 60%;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-image: url('../public/images/blue_hill.jpg');
+}
+ 
+#one-out{
+	height: 200px;
+	width: 100%;
+	background-color: black;
+}
+#one-in{
+	height: 50px;
+	width: 50px;
+	background-color:green;
+}
+*/
+
+
+#footer-message{
+	margin: auto;
+	text-align: center;
+}
